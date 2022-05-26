@@ -1,30 +1,33 @@
-h1 {
-  text-align: center;
-  ;
+body{
+  background-image: url(/assets/background/gif.survey.gif);
 }
 
-.border {
-  background-image: linear-gradient(lightblue, rgb(245, 245, 142));
-  width: 500px;
-  border: none;
-  border-radius: 5px;
-  padding: 5px;
-  box-shadow: 10px 10px 5px rgb(170, 165, 165);
+h1 {
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 1px 1px pink;
 }
 
 .start {
   padding: 15px 390px;
+  justify-content: center;
+  display: flex;
 }
 
-.submit {
-  background-color: #b1a5d1;
+.border {
+  background-image: linear-gradient(rgb(255, 255, 255),#ff99ff);
+  width: 500px;
   border: none;
-  color: white;
-  padding: 2px 110px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input {
+  outline: none;
+}
+
+input[type="number"] {
+  width: 491px;
 }
 
 .select #position {
@@ -32,6 +35,21 @@ h1 {
 }
 
 textarea {
-  max-width: 500px;
+  max-width: 491px;
   outline: invert;
+  outline: none;
+}
+
+a .submit {
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  padding: 2px 110px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 495px;
 }

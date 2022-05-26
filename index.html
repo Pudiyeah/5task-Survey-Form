@@ -10,15 +10,19 @@
 </head>
 
 <body>
+    <div class="scrollbar" name="viewport" content="width=device-width, initial-scale=1">
+    </div>
     <h1>GeeksforGeeks Survey Form</h1>
+    
     <div class="start">
+        
         <div class="border">
             <label>Name</label><br>
             <input type="text" placeholder="Enter your name" size="66"><br><br>
             <label>Email</label><br>
             <input type="email" placeholder="Enter your email" size="66"><br><br>
             <label>Age</label><br>
-            <input type="text" placeholder="Enter your age" size="66"><br><br>
+            <input type="number" placeholder="Enter your age" size="66" min="15"><br><br>
             <label>Which option best describes you?</label><br>
 
             <div class="select">
@@ -61,7 +65,7 @@
             <textarea name="comment" id="comment" cols="65.5" rows="3"></textarea><br>
 
             <div class="submit">
-                <input type="submit" class="submit" value="Submit">
+               <a href="#"><input type="submit" class="submit" value="Submit" ></a> 
             </div>
 
 
