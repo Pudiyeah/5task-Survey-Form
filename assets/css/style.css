@@ -1,23 +1,23 @@
-h1{
-    text-align: center;
-    ;
+h1 {
+  text-align: center;
+  ;
 }
 
-.border{
-    background-image: linear-gradient(lightblue, rgb(245, 245, 142));
-    width: 500px;
-    border: none;
-    border-radius: 5px;
-    padding: 5px;
-    box-shadow: 10px 10px 5px rgb(170, 165, 165);
+.border {
+  background-image: linear-gradient(lightblue, rgb(245, 245, 142));
+  width: 500px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 10px 10px 5px rgb(170, 165, 165);
 }
 
-.start{
- padding: 15px 390px;
+.start {
+  padding: 15px 390px;
 }
 
-.submit{
-  background-color: #b1a5d1; 
+.submit {
+  background-color: #b1a5d1;
   border: none;
   color: white;
   padding: 2px 110px;
@@ -27,6 +27,11 @@ h1{
   cursor: pointer;
 }
 
-.select #position{
- width: 499px;
+.select #position {
+  width: 499px;
+}
+
+textarea {
+  max-width: 500px;
+  outline: invert;
 }
