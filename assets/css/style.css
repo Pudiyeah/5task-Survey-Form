@@ -1,3 +1,17 @@
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(blue, pink,indigo);
+  border: 3px solid black;
+  border-radius: 100vw;
+}
+
 body{
   background-image: url(/assets/background/gif.survey.gif);
 }
@@ -15,7 +29,7 @@ h1 {
 }
 
 .border {
-  background-image: linear-gradient(rgb(255, 255, 255),#ff99ff);
+  background-image: linear-gradient(blue, pink,indigo);
   width: 500px;
   border: none;
   border-radius: 5px;
@@ -32,6 +46,7 @@ input[type="number"] {
 
 .select #position {
   width: 499px;
+  outline: none;
 }
 
 textarea {
